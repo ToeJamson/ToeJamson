@@ -1,0 +1,29 @@
+body {
+    background-color: #999999
+}
+
+p {
+    color: #321931;
+    font-family: Courier;
+    padding-left: 15px;
+}
+
+h1 {
+    color:pink;
+    text-align:center;
+    font-family: Verdana;
+}
+
+#super {
+    color: yellow;
+    font-family: Helvetica;
+}
+
+h2 {
+    color: orange;
+    font-family: Arial;
+}
+
+p:nth-child(2) {
+    color:red;
+}
