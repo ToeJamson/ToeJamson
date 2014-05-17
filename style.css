@@ -1,30 +1,69 @@
-body {
-    background-color: #999999
-}
+.top {
+	background-color: #FFCC2F;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica";
 
-p {
-    color: #321931;
-    font-family: Courier;
-    padding-left: 15px;
-}
-
-h1 {
-    color:pink;
-    text-align:center;
-    font-family: Verdana;
-    font-weight: bold;
-}
-
-#super {
-    color: yellow;
-    font-family: Helvetica;
 }
 
 h2 {
-    color: orange;
-    font-family: Arial;
+	color: #EF5734;
+	text-align: center;
+	font-size: 58px;
 }
 
-p:nth-child(2) {
-    color:red;
+h3 {
+	color: #543729;
+	text-align: center;
+	font-size: 30px;
+}
+
+#greenbar {
+	background-color: #2baf2b;
+	width: 100%;
+	height: 10px;
+}
+
+#mainbody {
+	width: 100%;
+	color: #543729;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica";
+	margin-left: 20px;
+}
+
+#mainbody h3 {
+	text-align: left;
+	font-size: 30px;
+	font-weight: 100px;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica";
+}
+
+body {
+	margin: 0px;
+	background-color: #E0E0E0; 
+}
+
+#first_number_plus_second_number {
+	color: red;
+	font-family: cursive;
+	font-size: 40px;
+}
+
+#result {
+	color: red;
+	font-family: cursive;
+	font-size: 40px;
+}
+
+#myapps {
+	background-color: #FFCC2F;
+}
+
+hr {
+	width: 70%;
+	height: 3px;
+	color: #2baf2b;
+	float: left;
 }
